@@ -1,0 +1,217 @@
+@import url("./font.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Disket Mono', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    height: 2000px;
+    background-image: url("../img/background/bg-hero.svg");
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container marquee {
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.container h1 {
+    display: flex;
+    gap: 75px;
+    font-weight: normal;
+    font-size: 280px;
+    color: #91EF19;
+    transform: rotate(-90deg);
+}
+
+header {
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.8);
+    display: flex;
+    gap: 120px;
+    padding: 14px 53px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+nav ul li {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #91EF19 !important;
+}
+
+.container h2 {
+    margin: 63px 0 0 120px;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 9;
+    left: 15%;
+}
+
+.banner-one {
+    display: flex;
+    position: absolute;
+    left: 302px;
+    top: 223px;
+    z-index: 8;
+}
+
+.banner-one a .variant2 {
+    display: none;
+}
+
+.banner-one a:hover .variant1 {
+    display: none;
+}
+
+.banner-one a:hover .variant2 {
+    display: block;
+}
+
+.banner-one .banner-txt {
+    width: 50%;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-align: end;
+    margin: 62px 0 0 70px;
+}
+
+.banner-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: absolute;
+    left: 590px;
+    top: 680px;
+}
+
+.banner-two a .variant2 {
+    display: none;
+}
+
+.banner-two a:hover .variant1 {
+    display: none;
+}
+
+.banner-two a:hover .variant2 {
+    display: block;
+}
+
+.banner-two-text {
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.hero-text {
+    width: 850px;
+    position: absolute;
+    top: 790px;
+    left: 96px;
+}
+
+.hero-text h2 {
+    text-align: start;
+    margin-left: 0 !important;
+}
+
+.banner-three {
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+}
+
+.banner-three a .variant2 {
+    display: none;
+}
+
+.banner-three a:hover .variant1 {
+    display: none;
+}
+
+.banner-three a:hover .variant2 {
+    display: block;
+}
+
+.hero-text2 {
+    width: 655px;
+    position: absolute;
+    right: 300px;
+    top: 1100px;
+}
+
+footer {
+    position: absolute;
+    top: 235.8%;
+    width: 100%;
+    height: auto;
+    padding: 60px 58px;
+    margin-bottom: 100px;
+    background-color: rgba(17, 17, 17, 0.8);
+}
+
+footer nav ul {
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer nav ul li:nth-child(2) {
+    margin-right: 100px;
+}
+
+footer nav ul li:nth-child(4) {
+    margin-left: 100px;
+}
+
+footer nav ul li:hover {
+    color: #91EF19;
+}
+
+@media screen and (max-width: 1500px) {
+    footer{
+        top: 226.5%;
+    }
+}

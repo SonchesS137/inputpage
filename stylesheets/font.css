@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Disket Mono';
+    src: url('../font/Disket-Mono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Disket Mono';
+    src: url('../font/Disket-Mono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../font/Orbitron-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

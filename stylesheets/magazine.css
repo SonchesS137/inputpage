@@ -1,0 +1,653 @@
+@import url("./font.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Disket Mono', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    height: 3650px;
+    background-image: url("../img/background/bg-magazine.svg");
+    background-color: #000;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.8);
+    display: flex;
+    gap: 120px;
+    padding: 14px 53px;
+    position: sticky;
+    top: 0;
+    z-index: 12;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+nav ul li {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #91EF19 !important;
+}
+
+.clicked {
+    background-color: #91EF19 !important;
+    color: black !important;
+}
+
+.item-one {
+    width: 860px;
+    height: 400px;
+    background-image: url("../img/products/item_1v2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 2.5%;
+    left: 40%;
+    display: flex;
+}
+
+.item-one img {
+    width: 85%;
+    position: absolute;
+    left: -19%;
+    top: -20%;
+}
+
+.item-one h2 {
+    position: absolute;
+    top: 45%;
+    right: -20%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-one .price {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-one .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-one .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-one .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-one .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+.item-two {
+    width: 848px;
+    height: 410px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    z-index: 10;
+    background-image: url("../img/products/item-2v3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-two h2 {
+    position: absolute;
+    top: 27%;
+    right: -16%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-two img {
+    width: 70%;
+    position: absolute;
+    top: -10%;
+    z-index: 9;
+}
+
+.item-two h4 {
+    z-index: 3;
+    width: 650px;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-two .price {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-two .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-two .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-two .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-two .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+.item-three {
+    width: 860px;
+    height: 560px;
+    position: relative;
+    top: 100px;
+    left: 37%;
+    background-image: url("../img/products/item-2v3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-three h2 {
+    position: absolute;
+    top: 32%;
+    right: -24%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-three h4 {
+    width: 658px;
+    text-align: end;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-three img {
+    position: absolute;
+    top: -20%;
+}
+
+.item-three .price {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-three .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-three .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-three .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-three .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+.item-four {
+    width: 900px;
+    height: 490px;
+    position: relative;
+    top: -100px;
+    left: 60px;
+    background-image: url("../img/products/item-2v3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-four h2 {
+    position: absolute;
+    top: 23%;
+    right: -15%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-four h4 {
+    width: 650px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-four img {
+    position: absolute;
+    top: -100px;
+    z-index: 9;
+}
+
+.item-four .price {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-four .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-four .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-four .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-four .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+.item-five {
+    width: 891px;
+    height: 639px;
+    position: relative;
+    top: -100px;
+    left: 37%;
+    background-image: url("../img/products/item-2v3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-five h2 {
+    position: absolute;
+    top: 20%;
+    right: -15%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-five h4 {
+    width: 657px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    text-align: end;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-five img {
+    position: absolute;
+    top: -35%;
+    left: -15%;
+    z-index: 9;
+}
+
+.item-five .price {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-five .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-five .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-five .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-five .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+.item-six {
+    width: 891px;
+    height: 639px;
+    position: relative;
+    top: -200px;
+    left: 60px;
+    background-image: url("../img/products/item-2v3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-six h2 {
+    position: absolute;
+    top: 30%;
+    right: -23%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-six img {
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    z-index: 9;
+}
+
+.item-six h4 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-six .price {
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-six .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-six .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-six .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-six .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+.item-seven {
+    width: 890px;
+    height: 440px;
+    position: relative;
+    top: -300px;
+    left: 35%;
+    background-image: url("../img/products/item-2v3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-seven h2 {
+    position: absolute;
+    top: 35%;
+    right: -20%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    transform: rotate(270deg);
+}
+
+.item-seven img {
+    position: absolute;
+    left: -10%;
+    z-index: 9;
+}
+
+.item-seven h4 {
+    width: 573px;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    color: #fff;
+    text-align: end;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-seven .price {
+    position: absolute;
+    top: 50px;
+    right: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-seven .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-seven .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-seven .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-seven .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+footer {
+    position: absolute;
+    bottom: -2.8%;
+    width: 100%;
+    height: auto;
+    padding: 60px 58px;
+    margin-bottom: 100px;
+    background-color: rgba(17, 17, 17, 0.8);
+}
+
+footer nav ul {
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer nav ul li:nth-child(2) {
+    margin-right: 100px;
+}
+
+footer nav ul li:nth-child(4) {
+    margin-left: 100px;
+}
+
+footer nav ul li:hover {
+    color: #91EF19;
+}

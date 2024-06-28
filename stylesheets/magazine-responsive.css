@@ -1,0 +1,624 @@
+@media screen and (max-width: 1460px) {
+    .item-one {
+        left: 34%;
+    }
+
+    .item-three {
+        left: 33%;
+    }
+
+    .item-five {
+        left: 33%;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    nav ul li {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .item-one {
+        left: 30%;
+    }
+
+    .item-three {
+        left: 30%;
+    }
+
+    .item-five {
+        left: 29%;
+    }
+
+    .item-seven {
+        left: 30%;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    nav ul li {
+        font-size: 30px;
+    }
+
+    .item-one {
+        left: 27%;
+    }
+
+    .item-three {
+        left: 27%;
+    }
+
+    .item-five {
+        left: 25%;
+    }
+
+    .item-seven {
+        left: 27%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav ul li {
+        font-size: 25px;
+    }
+
+    .item-one {
+        left: 20%;
+    }
+
+    .item-three {
+        left: 20%;
+    }
+
+    .item-five {
+        left: 20%;
+    }
+
+    .item-seven {
+        left: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .item-one {
+        left: 15%;
+    }
+
+    .item-three {
+        left: 15%;
+    }
+
+    .item-five {
+        left: 15%;
+    }
+
+    .item-seven {
+        left: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    nav ul li {
+        font-size: 23px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .item-one {
+        left: 8%;
+    }
+
+    .item-two {
+        top: 80px;
+    }
+
+    .item-three {
+        left: 8%;
+    }
+
+    .item-four {
+        top: -50px;
+        left: 70px;
+    }
+
+    .item-five {
+        left: 5%;
+    }
+
+    .item-seven {
+        left: 8%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    nav ul li {
+        font-size: 20px;
+    }
+
+    .item-one {
+        left: 4%;
+    }
+
+    .item-two {
+        top: 80px;
+        left: 40px;
+    }
+
+    .item-two h2 {
+        left: -17%;
+    }
+
+    .item-three {
+        left: 4%;
+    }
+
+    .item-four {
+        top: -50px;
+        left: 40px;
+    }
+
+    .item-five {
+        left: 2%;
+    }
+
+    .item-six {
+        left: 20px;
+    }
+
+    .item-seven {
+        left: 4%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .item-one {
+        width: 90%;
+    }
+
+    .item-two {
+        width: 90%;
+    }
+
+    .item-two h2 {
+        top: -130%;
+        right: -105%;
+    }
+
+    .item-three {
+        width: 90%;
+    }
+
+    .item-four {
+        width: 92%;
+    }
+
+    .item-five {
+        width: 90%;
+    }
+
+    .item-six {
+        width: 90%;
+    }
+
+    .item-seven {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    nav ul li {
+        font-size: 15px;
+    }
+
+    .item-one h2 {
+        top: 40%;
+        right: -18%;
+        font-size: 80px;
+    }
+
+    .item-two h2 {
+        font-size: 80px;
+    }
+
+    .item-three h2 {
+        top: 50%;
+        right: -23%;
+        font-size: 80px;
+    }
+
+    .item-four {
+        top: -125px;
+    }
+
+    .item-four h2 {
+        top: 40%;
+        font-size: 80px;
+    }
+
+    .item-five h2 {
+        top: 48%;
+        font-size: 80px;
+    }
+
+    .item-six {
+        top: -335px;
+    }
+
+    .item-six h2 {
+        top: 48%;
+        font-size: 80px;
+    }
+
+    .item-seven h2 {
+        top: 40%;
+        right: -19%;
+        font-size: 80px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 14px 30px;
+    }
+
+    nav ul li {
+        font-size: 13px;
+    }
+
+    .item-one h2 {
+        top: 30%;
+        right: -18%;
+        font-size: 60px;
+    }
+
+    .item-two h2 {
+        top: -120%;
+        right: -110%;
+        font-size: 60px;
+    }
+
+    .item-two .price {
+        top: 60px;
+        right: 70px;
+        gap: 20px;
+    }
+
+    .item-three h2 {
+        font-size: 60px;
+    }
+
+    .item-three .price {
+        top: 130px;
+        right: 100px;
+        gap: 20px;
+    }
+
+    .item-four .price {
+        top: 100px;
+        right: 100px;
+        gap: 20px;
+    }
+
+    .item-five .price {
+        top: 200px;
+        right: 100px;
+        gap: 20px;
+    }
+
+    .item-six .price {
+        top: 130px;
+        right: 80px;
+        gap: 20px;
+    }
+
+    .item-seven .price {
+        top: 50px;
+        right: 100px;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    nav ul {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        gap: 100px;
+    }
+
+    nav ul {
+        gap: 30px;
+    }
+
+    .item-one h2 {
+        top: 30%;
+        right: -18%;
+        font-size: 60px;
+    }
+
+    .item-two h2 {
+        top: -88%;
+        right: -110%;
+        font-size: 60px;
+    }
+
+    .item-two .price {
+        top: 45px;
+        right: 50px;
+        gap: 10px;
+    }
+
+    .item-three h2 {
+        top: 36%;
+        right: -24%;
+    }
+
+    .item-three .price {
+        top: 90px;
+        right: 70px;
+        gap: 10px;
+    }
+
+    .item-four h2 {
+        top: 29%;
+        font-size: 60px;
+    }
+
+    .item-four .price {
+        top: 65px;
+        right: 80px;
+        gap: 10px;
+    }
+
+    .item-five h2 {
+        top: 35%;
+        font-size: 60px;
+    }
+
+    .item-five .price {
+        top: 140px;
+        right: 40px;
+        gap: 10px;
+    }
+
+    .item-six h2 {
+        top: 30%;
+        font-size: 60px;
+    }
+
+    .item-six .price {
+        top: 80px;
+        right: 50px;
+        gap: 10px;
+    }
+
+    .item-seven h2 {
+        top: 30%;
+        font-size: 60px;
+    }
+
+    .item-seven .price {
+        top: 20px;
+        right: 60px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    header {
+        gap: 50px;
+    }
+
+    .item-one {
+        left: 25px;
+    }
+
+    .item-two {
+        left: 25px;
+    }
+
+    .item-two h2 {
+        top: -80%;
+        right: -110%;
+        font-size: 60px;
+    }
+
+    .item-two .price h3, .item-two .price button {
+        font-size: 20px;
+    }
+
+    .item-two .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-two .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-three {
+        left: 25px;
+    }
+
+    .item-three .price h3, .item-three .price button {
+        font-size: 20px;
+    }
+
+    .item-three .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-three .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-four {
+        left: 25px;
+    }
+
+    .item-four .price h3, .item-four .price button {
+        font-size: 20px;
+    }
+
+    .item-four .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-four .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-five {
+        left: 25px;
+    }
+
+    .item-five .price h3, .item-five .price button {
+        font-size: 20px;
+    }
+
+    .item-five .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-five .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-six {
+        left: 25px;
+    }
+
+    .item-six .price h3, .item-six .price button {
+        font-size: 20px;
+    }
+
+    .item-six .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-six .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-seven {
+        left: 25px;
+    }
+
+    .item-seven .price h3, .item-seven .price button {
+        font-size: 20px;
+    }
+
+    .item-seven .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-seven .price .number input[type="number"] {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        gap: 30px;
+    }
+
+    nav ul li {
+        font-size: 12px;
+    }
+
+    .item-one h2 {
+        top: 25%;
+        right: -27%;
+    }
+
+    .item-two h2 {
+        top: -53%;
+        right: -105%;
+    }
+
+
+    .item-three h2 {
+        top: 32%;
+        right: -32%;
+    }
+
+
+    .item-four h2 {
+        top: 25%;
+        right: -17%;
+    }
+
+
+    .item-five h2 {
+        top: 29%;
+        right: -21%;
+    }
+
+    .item-six h2 {
+        top: 28%;
+        right: -123px;
+    }
+
+    .item-seven h2 {
+        top: 25%;
+        right: -27%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    nav ul li {
+        font-size: 11px;
+    }
+
+    header {
+        gap: 20px;
+        padding: 14px 20px;
+    }
+
+    nav ul {
+        gap: 25px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    nav ul li {
+        font-size: 10px;
+    }
+}
