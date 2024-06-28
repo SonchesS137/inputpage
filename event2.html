@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheets/eventv2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">главная</a></li>
+                <li><a href="./magazine.html">магазин</a></li>
+                <li>
+                    <a href="./sobitiya.html">
+                        события
+                    </a>
+                </li>
+                <li><a href="./event.html">путеводитель</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="./img/input_logo.svg" alt="Logo">
+        </div>
+    </header>
+    <div class="event-text">
+        <h3>свайпни вниз, чтобы листать</h3>
+        <img src="./img/arrow-down.svg" alt="">
+    </div>
+    <div class="event-product">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-1.svg" alt="slide">
+                    <img src="./img/slide/slide-2.svg" alt="slide">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-3.svg" alt="slide">
+                    <img src="./img/slide/slide-4.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-5.svg" alt="slide">
+                    <img src="./img/slide/slide-6.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-7.svg" alt="slide">
+                    <img src="./img/slide/slide-8.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-9.svg" alt="slide">
+                    <img src="./img/slide/slide-10.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-11.svg" alt="slide">
+                    <img src="./img/slide/slide-12.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-13.svg" alt="slide">
+                    <img src="./img/slide/slide-14.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-15.svg" alt="slide">
+                    <img src="./img/slide/slide-16.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-17.svg" alt="slide">
+                    <img src="./img/slide/slide-18.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-19.svg" alt="slide">
+                    <img src="./img/slide/slide-20.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-21.svg" alt="slide">
+                    <img src="./img/slide/slide-22.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-23.svg" alt="slide">
+                    <img src="./img/slide/slide-24.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-25.svg" alt="slide">
+                    <img src="./img/slide/slide-26.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-27.svg" alt="slide">
+                    <img src="./img/slide/slide-28.svg" alt="slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slide/slide-29.svg" alt="slide">
+                    <img src="./img/slide/slide-30.svg" alt="slide">
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <!-- If we need pagination -->
+            <!--            <div class="swiper-pagination"></div>-->
+            <!-- If we need navigation buttons -->
+            <!--            <div class="swiper-button-prev"></div>-->
+            <!--            <div class="swiper-button-next"></div>-->
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li>Серова</li>
+                <li>б23дз10</li>
+                <li>ин</li>
+                <li>телеграм</li>
+                <li>беханс</li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+</div>
+</body>
+</html>
